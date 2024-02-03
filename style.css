@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(255, 245, 233);
+}
+li {
+    font-size: 2em;
+    margin: 20px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@font-face {
+    font-family: chomsky;
+    src: url(Chomsky.otf);
+}
+h1 {
+    font-family: chomsky;
+    font-size: 5em;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+}
+p {
+    display: inline;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+}
+h2 {
+    font-size: 3em;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.align {
+	display: flex;
+	align-items: flex-start;
+}
+#link {
+	display: inline;
+	font-size: 20px;
+	margin: 5px;
+}
+#item {
+    display: inline;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+}
+a:link {
+    color: rgb(132, 0, 0);
+}
+a:visited {
+    color: rgb(209, 0, 0);
+}
+a:hover {
+    color: rgb(132, 0, 0);
+}
+a:active {
+    color: rgb(209, 0, 0);
+}
